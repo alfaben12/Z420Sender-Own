@@ -44,7 +44,7 @@ php Z420.php
 ```  
 
 ## Update step by step on date
-| Attribute       | Type    | Description | Description | Description |
+| Date       | Version    | Status | Type | Description |
 | --------------- | ------- | -------- |-------- |-------- |
 |17 Dec 2017 |`v1.0`|Complete|High|Add feature random and update header email|
 |21 Dec 2017 |`v1.1`|Complete|Low|Update header email|
