@@ -76,7 +76,7 @@ https://z420sender.com/member/index.php/Z420S/checking/apikey/Z4209350-6fa-4200-
 ```
 **Response**
 ```ruby
-
+}
   "apikey": "Z4209350-6fa-4200-91bb-xxxxxxxxxxxx",
   "valid": true,
   "id": "1",
@@ -106,3 +106,10 @@ https://z420sender.com/member/index.php/Z420S/checking/apikey/Z4209350-6fa-4200-
   ]
 }
 ```
+
+## Information Issues, Security Concerns
+Contact zrav420@gmail.com
+
+## Contributor
+- Thariq Alfa `Codename Zrav`
+Wanna join? let's show your skill ~
