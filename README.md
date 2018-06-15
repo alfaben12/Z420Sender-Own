@@ -40,6 +40,7 @@
 
 ### Running on CLI Mode
 ```ruby
+# Open your directory sender
 php Z420.php
 ```  
 
@@ -69,7 +70,7 @@ https://z420sender.com/member/index.php/Z420S/expired/apikey/Z4209350-6fa-4200-9
 }
 ```
 
-**APIKEY CHECKING Expired**
+**APIKEY CHECKING Information**
 
 ```ruby
 https://z420sender.com/member/index.php/Z420S/checking/apikey/Z4209350-6fa-4200-91bb-xxxxxxxxxxxx
@@ -112,4 +113,5 @@ Contact zrav420@gmail.com
 
 ## Contributor
 - Thariq Alfa `Codename Zrav`
-Wanna join? let's show your skill ~
+
+# Wanna join? let's show your skill dude ~
