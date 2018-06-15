@@ -107,7 +107,7 @@ https://z420sender.com/member/index.php/Z420S/checking/apikey/Z4209350-6fa-4200-
 }
 ```
 
-## Information Issues, Security Concerns
+## Information Issues and Security Concerns
 Contact zrav420@gmail.com
 
 ## Contributor
