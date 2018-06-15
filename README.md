@@ -33,7 +33,7 @@
 ## Usage
 
 ### Input Parameter Descriptions
-# In your Gemfile
+# In your my.php
 | Apikey       | Hostname    | Username | Password | Secure | Port |
 | --------------- | ------- | -------- |--------|--------|--------|
 |Z4209350-6fa-4200-91bb-xxxxxxxxxxxx|smtp-relay.gmail.com|admin@z420.com|xxxxxxxx|tls or ssl|587 (TLS) or 465 (SSL)|
@@ -54,3 +54,55 @@ php Z420.php
 |02 March 2018 |`v1.4.1`|Complete|Low|Header update from AssasinSpam|
 |01 Juni 2018 |`v1.5`|Failed|Medium|Get score from email AssasinSpam with CURL <a href="http://spamcheck.postmarkapp.com/filter">http://spamcheck.postmarkapp.com/filter</a>|
 
+**APIKEY CHECKING Expired**
+
+```ruby
+https://z420sender.com/member/index.php/Z420S/expired/apikey/Z4209350-6fa-4200-91bb-xxxxxxxxxxxx
+```
+**Response**
+```ruby
+}
+  "apikey": "Z4209350-6fa-4200-91bb-xxxxxxxxxxxx",
+  "checking": true,
+  "message": "Your api key valid!",
+  "expired": "true"
+}
+```
+
+**APIKEY CHECKING Expired**
+
+```ruby
+https://z420sender.com/member/index.php/Z420S/checking/apikey/Z4209350-6fa-4200-91bb-xxxxxxxxxxxx
+```
+**Response**
+```ruby
+
+  "apikey": "Z4209350-6fa-4200-91bb-xxxxxxxxxxxx",
+  "valid": true,
+  "id": "1",
+  "account": {
+    "id": "1",
+    "apikey": "Z4209350-6fa-4200-91bb-xxxxxxxxxxxx",
+    "contact": "https://www.facebook.com/riqalfa",
+    "active": "true",
+    "expired": "2018-12-01",
+    "date": "2018-04-01",
+    "role": "superadmin"
+  },
+  "logs": [
+    {
+      "id": "195",
+      "userid": "1",
+      "ip": "36.xx.196.xxx",
+      "country": "Indonesia",
+      "countrycode": "ID",
+      "city": "Surabaya",
+      "logintype": "critical",
+      "isp": "PT Telkom Indonesia",
+      "proxy": "false",
+      "date": "2018-06-15",
+      "datetime": "2018-06-15 12:06:33"
+    }
+  ]
+}
+```
