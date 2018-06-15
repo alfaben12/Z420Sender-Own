@@ -44,20 +44,13 @@ php Z420.php
 ```  
 
 ## Update step by step on date
-| Attribute       | Type    | Description |
-| --------------- | ------- | -------- |
-|`is_listed`|boolean|Is this IP on a blocklist|
-|`list_count`|integer|The number of blocklists the IP is listed on|
-|`last_seen`|integer|The last time this IP was seen on a blocklist (in Unix time or 0 if not listed recently)|
-|`is_proxy`|boolean|IP has been detected as an anonymous web proxy or anonymous HTTP proxy|
-|`is_tor`|boolean|IP is coming from a Tor node|
-|`is_vpn`|boolean|IP has been detected as coming from a VPN hosting provider|
-|`is_malware`|boolean|IP is involved in distributing malware|
-|`is_spyware`|boolean|IP is being used by spyware, malware, botnets or for other malicious activities|
-|`is_dshield`|boolean|IP has been flagged on DShield (dshield.org)|
-|`is_hijacked`|boolean|hijacked netblocks or netblocks controlled by criminal organizations|
-|`is_spider`|boolean|IP is a hostile spider or crawler|
-|`is_bot`|boolean|IP is hosting a malicious bot or is part of a botnet|
-|`is_spam_bot`|boolean|IP address is hosting a spam bot, comment spamming or other spamming software|
-|`is_exploit_bot`|boolean|IP is hosting an exploit finding bot or exploit scanning software|
+| Attribute       | Type    | Description | Description | Description |
+| --------------- | ------- | -------- |-------- |-------- |
+|17 Dec 2017 |`v1.0`|Complete|High|Add feature random and update header email|
+|21 Dec 2017 |`v1.1`|Complete|Low|Update header email|
+|07 Jan 2018 |`v1.2`|Complete|High|Update all system on sender|
+|13 Jan 2018 |`v1.3`|Complete|High|Fix all bug after last update|
+|22 Feb 2018 |`v1.4`|Complete|Medium|Add feature multiple relay|
+|02 Mar 2018 |`v1.4.1`|Complete|Low|Header update from AssasinSpam|
+|01 Jun 2018 |`v1.5`|Failed|Medium|Get score from email AssasinSpam with CURL <a href="http://spamcheck.postmarkapp.com/filter">http://spamcheck.postmarkapp.com/filter</a>|
 
