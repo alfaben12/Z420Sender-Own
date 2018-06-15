@@ -48,9 +48,4 @@ php Z420.php
 | Date   | Version       | Status    | Type    | Description |
 | ------- | --------------- | ------- | -------- | | ----------- |
 |17 Dec 2017 |`v1.0`|Complete|High|Add feature random and update header email|
-|21 Dec 2017 |`v1.1`|Complete|Low|Update header email|
-|07 Jan 2018 |`v1.2`|Complete|High|Update all system on sender|
-|13 Jan 2018 |`v1.3`|Complete|High|Fix all bug after last update|
-|22 Feb 2018 |`v1.4`|Complete|Medium|Add feature multiple relay|
-|02 Mar 2018 |`v1.4.1`|Complete|Low|Header update from AssasinSpam|
-|01 Jun 2018 |`v1.5`|Failed|Medium|Get score from email AssasinSpam with CURL <a href="http://spamcheck.postmarkapp.com/filter">http://spamcheck.postmarkapp.com/filter</a>|
+
