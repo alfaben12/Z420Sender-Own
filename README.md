@@ -4,7 +4,7 @@
 ## Requirements
 
 - An API Key
-    - Add from: https://www.facebook.com/riqlfa
+    - Add from: https://www.facebook.com/riqalfa
 - PHP 5.6 up
 - PHP Server (XAMPP) / IIS
 - Text Editor
@@ -112,6 +112,6 @@ https://z420sender.com/member/index.php/Z420S/checking/apikey/Z4209350-6fa-4200-
 Contact zrav420@gmail.com
 
 ## Contributor
-- Thariq Alfa `Codename Zrav`
+- Thariq Alfa `codenamezrav`
 
 # Wanna join? let's show your skill dude ~
